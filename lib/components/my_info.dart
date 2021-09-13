@@ -10,7 +10,6 @@ class MyInfo extends StatelessWidget {
     return AspectRatio(
       aspectRatio: 1.23,
       child: Container(
-        color: Colors.amber,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
