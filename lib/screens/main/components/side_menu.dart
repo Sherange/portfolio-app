@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_app/components/area_info.dart';
-import 'package:portfolio_app/components/codeing.dart';
-import 'package:portfolio_app/components/skills.dart';
-import 'package:portfolio_app/constants.dart';
+import '../../../constants.dart';
+import 'area_info.dart';
+import 'codeing.dart';
 import 'my_info.dart';
+import 'skills.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
