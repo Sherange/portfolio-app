@@ -20,29 +20,32 @@ class Skills extends StatelessWidget {
             style: Theme.of(context).textTheme.subtitle2,
           ),
         ),
-        Row(
-          children: [
-            Expanded(
-              child: AnimatedCircular(
-                label: "Flutter",
-                percentage: 0.5,
+        Padding(
+          padding: const EdgeInsets.only(bottom: defaultPadding),
+          child: Row(
+            children: [
+              Expanded(
+                child: AnimatedCircular(
+                  label: "Flutter",
+                  percentage: 0.5,
+                ),
               ),
-            ),
-            SizedBox(width: defaultPadding),
-            Expanded(
-              child: AnimatedCircular(
-                label: "React",
-                percentage: 0.8,
+              SizedBox(width: defaultPadding),
+              Expanded(
+                child: AnimatedCircular(
+                  label: "React",
+                  percentage: 0.8,
+                ),
               ),
-            ),
-            SizedBox(width: defaultPadding),
-            Expanded(
-              child: AnimatedCircular(
-                label: "React Native",
-                percentage: 0.8,
+              SizedBox(width: defaultPadding),
+              Expanded(
+                child: AnimatedCircular(
+                  label: "React Native",
+                  percentage: 0.8,
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         )
       ],
     );
