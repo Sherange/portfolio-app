@@ -13,5 +13,15 @@ final List<Recommendation> recommendations = [
   Recommendation(
       name: "Reza Shahbazi",
       source: "Linkedin",
-      text: "Abu is greated asset for any organization.")
+      text: "Abu is greated asset for any organization."),
+  Recommendation(
+      name: "Kolapo Obenewa",
+      source: "Linkedin",
+      text:
+          "I have the pleasure of working with Anwar on two flutter projects and waht strikes me the most about, I have the pleasure of working with Anwar on two flutter projects and waht strikes me the most about"),
+  Recommendation(
+      name: "Kolapo Obenewa",
+      source: "Linkedin",
+      text:
+          "I have the pleasure of working with Anwar on two flutter projects and waht strikes me the most about"),
 ];

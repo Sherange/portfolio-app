@@ -3,6 +3,7 @@ import 'package:portfolio_app/screens/main/main_screen.dart';
 import 'components/heigh_lights_info.dart';
 import 'components/home_banner.dart';
 import 'components/my_projects.dart';
+import 'components/recommendations.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
@@ -13,6 +14,7 @@ class HomeScreen extends StatelessWidget {
       HomeBanner(),
       HeighLightsInfo(),
       MyProjects(),
+      Recommendations(),
     ]);
   }
 }
