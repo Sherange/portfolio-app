@@ -8,10 +8,20 @@ import 'knowledge.dart';
 import 'my_info.dart';
 import 'skills.dart';
 
-class SideMenu extends StatelessWidget {
-  const SideMenu({
+class SideMenu extends StatefulWidget {
+  SideMenu({
     Key? key,
   }) : super(key: key);
+
+  @override
+  State<SideMenu> createState() => _SideMenuState();
+}
+
+class _SideMenuState extends State<SideMenu> {
+  ScrollController _scrollController = new ScrollController(
+    initialScrollOffset: 0.0,
+    keepScrollOffset: true,
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +31,7 @@ class SideMenu extends StatelessWidget {
           MyInfo(),
           Expanded(
               child: SingleChildScrollView(
+            controller: _scrollController,
             child: Padding(
               padding: EdgeInsets.all(defaultPadding),
               child: Column(
