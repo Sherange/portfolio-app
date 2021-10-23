@@ -1,6 +1,6 @@
 # Portfolio App
 
-<img src="desktop.png" alt="desktop" width="60%"/>
+<img src="desktop.png" alt="desktop" width="100%"/>
 <!-- <img src="mobile.png" alt="mobile" width="12%"/> -->
 
 Flutter Responsive Portfolio App
